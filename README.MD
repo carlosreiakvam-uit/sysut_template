@@ -14,9 +14,9 @@ Skriv om til ditt oppsett
 
 ```mysql+pymysql://username:password@localhost/db_name```
 
-#### i Terminal i pycharm:
+#### installer requirements 
 
-```pip install flask, flask_sqlalchemy pymysql```
+Installer med pip ved hjelp av requirements.txt
 
 #### kjør sysut_template
 
