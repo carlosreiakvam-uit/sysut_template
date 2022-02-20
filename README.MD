@@ -35,6 +35,5 @@ Klikk på linken og verifiser at du får opp "Hello Munchies" i nettleseren din
 
 #### TODO:
 
-- Sett opp script som oppretter database schema og gi den et navn
-- Foreløpig prøver app.py å koble opp mot databasenavnet kongle_db som er en prøvedatabase jeg lagde
-- Bruk navn på schema i app.py for å spesifisere lokasjon
+- Sett opp script som oppretter database og gi den et navn
+- Bruk navn på database i app.py for å spesifisere lokasjon
