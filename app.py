@@ -2,23 +2,31 @@ from flask import Flask
 import click
 from flask.cli import with_appcontext
 from flask_sqlalchemy import SQLAlchemy
-from db_user_info import username, password
+from sqlalchemy import create_engine
 
-DB_NAME = "kongle_db"
+from db_user_info import username, password
+from sqlalchemy_utils import database_exists, create_database
+
+DB_NAME = "sysut_test_db"
+
+# Create database
+engine = create_engine(f"mysql+pymysql://{username}:{password}@localhost/{DB_NAME}")
+if not database_exists(engine.url):
+    create_database(engine.url)
+print(f"Database {DB_NAME} already exists:", database_exists(engine.url))
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = f'mysql+pymysql://{username}:{password}@localhost/{DB_NAME}' \
-    .format(username=username, password=password, DB_NAME=DB_NAME)
+app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql+pymysql://{username}:{password}@localhost/{DB_NAME}"
 db = SQLAlchemy(app)
 
 
-@click.command(name='create_db')
+@click.command(name='update_local_db')
 @with_appcontext
-def create_db():
+def update_local_db():
     db.create_all()
 
 
-app.cli.add_command(create_db)
+app.cli.add_command(update_local_db)
 
 
 class User(db.Model):
@@ -27,7 +35,7 @@ class User(db.Model):
     email = db.Column(db.String(120), unique=True, nullable=False)
 
     def __repr__(self):
-        return '<User %r>' % self.username  # Test nyere syntaks her hihi
+        return '<User %r>' % self.username
 
 
 @app.route('/')

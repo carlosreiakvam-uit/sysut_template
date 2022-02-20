@@ -32,8 +32,3 @@ Klikk på linken og verifiser at du får opp "Hello Munchies" i nettleseren din
 #### Oppdater database med kolonen "Users" fra terminalen i pycharm:
 
 ```flask create_db```
-
-#### TODO:
-
-- Sett opp script som oppretter database og gi den et navn
-- Bruk navn på database i app.py for å spesifisere lokasjon
