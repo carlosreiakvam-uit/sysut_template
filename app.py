@@ -2,22 +2,16 @@ from flask import Flask
 import click
 from flask.cli import with_appcontext
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy import create_engine
-
+from create_db import create_db
 from db_user_info import username, password
-from sqlalchemy_utils import database_exists, create_database
 
 DB_NAME = "sysut_test_db"
-
-# Create database
-engine = create_engine(f"mysql+pymysql://{username}:{password}@localhost/{DB_NAME}")
-if not database_exists(engine.url):
-    create_database(engine.url)
-print(f"Database {DB_NAME} already exists:", database_exists(engine.url))
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql+pymysql://{username}:{password}@localhost/{DB_NAME}"
 db = SQLAlchemy(app)
+create_db(username, password, DB_NAME)
+db.create_all()
 
 
 @click.command(name='update_local_db')

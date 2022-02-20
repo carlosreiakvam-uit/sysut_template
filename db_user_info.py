@@ -1,2 +1,3 @@
 username = "root"
-password = "tresko"
+password = ""
+DB_NAME = "sysut_test_db"
