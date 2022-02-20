@@ -10,6 +10,12 @@ Registrer deg med uit-epost og be til gudene om at du har fått gratis tilgang
 
 https://mariadb.org/download/?t=mariadb&p=mariadb&r=10.7.3&os=windows&cpu=x86_64&pkg=msi&m=dotsrc
 
+Velg passord "munchies"  
+![mariaDB_install_1](https://user-images.githubusercontent.com/98937880/154868769-7f317a29-1109-45bd-a5e2-23c48ac878d3.png)
+
+Behold alt som default her  
+![mariaDB_install_2](https://user-images.githubusercontent.com/98937880/154868776-a0fa6d99-c317-4a4d-8d16-9dbc74a318ad.png)
+
 #### Oppdater personlig info fra MariaDB
 
 I db_user_info.py: 
