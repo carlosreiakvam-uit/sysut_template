@@ -16,16 +16,6 @@ Velg passord "munchies"
 Behold alt som default her  
 ![mariaDB_install_2](https://user-images.githubusercontent.com/98937880/154868776-a0fa6d99-c317-4a4d-8d16-9dbc74a318ad.png)
 
-#### Oppdater personlig info fra MariaDB
-
-I db_user_info.py: 
-
-endre username og password til det du valgte under installasjoenen av mariaDB.  
-
-Username er root om du ikke har endret dette.
-
-NB: Når du commiter filer til prosjektet: Ikke legg ved din personal_db_user.py
-
 #### Installer requirements
 
 Installer requirements med pip ved hjelp av requirements.txt

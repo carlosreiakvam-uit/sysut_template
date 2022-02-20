@@ -1,3 +1,3 @@
 username = "root"
-password = ""
-DB_NAME = "sysut_test_db"
+password = "munchies"
+DB_NAME = "Munchies_DB"
