@@ -7,9 +7,11 @@ https://mariadb.org/download/?t=mariadb&p=mariadb&r=10.7.3&os=windows&cpu=x86_64
 #### Endre til ditt brukernavn og passord i mariaDB
 
 I app.py, skriv om linje 7 fra
+
 ```app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:tresko@localhost/kongle_db'```
 
 Skriv om til ditt oppsett
+
 ```mysql+pymysql://username:password@localhost/db_name```
 
 #### i Terminal i pycharm:
