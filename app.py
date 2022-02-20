@@ -1,6 +1,4 @@
 from flask import Flask
-import click
-from flask.cli import with_appcontext
 from flask_sqlalchemy import SQLAlchemy
 from create_db import create_db
 from db_user_info import username, password
