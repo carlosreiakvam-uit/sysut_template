@@ -2,7 +2,7 @@ from flask import Flask
 import click
 from flask.cli import with_appcontext
 from flask_sqlalchemy import SQLAlchemy
-from personal_db_user import username, password
+from db_user_info import username, password
 
 DB_NAME = "kongle_db"
 
