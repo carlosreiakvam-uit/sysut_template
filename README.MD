@@ -14,7 +14,7 @@ Skriv om til ditt oppsett
 
 ```mysql+pymysql://username:password@localhost/db_name```
 
-#### installer requirements 
+#### Installer requirements 
 
 Installer med pip ved hjelp av requirements.txt
 
