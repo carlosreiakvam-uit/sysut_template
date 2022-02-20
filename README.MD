@@ -1,6 +1,6 @@
-### Fremgangsmåte (foreløpig)
+## Fremgangsmåte (foreløpig)
 
-### Last ned og installer pycharm
+#### Last ned og installer pycharm
 
 https://www.jetbrains.com/pycharm/download/#section=windows
 
