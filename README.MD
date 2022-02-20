@@ -28,7 +28,7 @@ Installer requirements med pip ved hjelp av requirements.txt
 
 Kjør sysut_template ved å klikke på den grønne pilen oppe til høyre i Pycharm.
 
-Du får da opp en link som peker til https://127.0.0.1:5000/
+Du får da opp en link som peker til 127.0.0.1:5000/
 
 Klikk på linken og verifiser at du får opp "Hello Munchies" i nettleseren din
 
