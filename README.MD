@@ -10,9 +10,12 @@ Registrer deg med uit-epost og be til gudene om at du har fått gratis tilgang
 
 https://mariadb.org/download/?t=mariadb&p=mariadb&r=10.7.3&os=windows&cpu=x86_64&pkg=msi&m=dotsrc
 
-#### Endre til ditt brukernavn og passord i mariaDB
+#### Oppdater personlig info fra MariaDB
 
-I personal_db_user.py, endre username og password til det du valgte under installasjon av mariaDB.  
+I db_user_info.py: 
+
+endre username og password til det du valgte under installasjoenen av mariaDB.  
+
 Username er root om du ikke har endret dette.
 
 NB: Når du commiter filer til prosjektet: Ikke legg ved din personal_db_user.py
