@@ -4,7 +4,7 @@
 https://mariadb.org/download/?t=mariadb&p=mariadb&r=10.7.3&os=windows&cpu=x86_64&pkg=msi&m=dotsrc
 
 #### i Terminal i pycharm:
-```pip install flask_sqlalchemy pymysql```
+```pip install flask, flask_sqlalchemy pymysql```
 
 #### kjør sysut_template
 Kjør sysut_template og klikk på linken som peker til https://127.0.0.1:5000/
