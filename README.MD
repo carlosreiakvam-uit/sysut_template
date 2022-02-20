@@ -18,7 +18,7 @@ Skriv om til ditt oppsett
 
 Installer med pip ved hjelp av requirements.txt
 
-#### kjør sysut_template
+#### Kjør sysut_template
 
 Kjør sysut_template og klikk på linken som peker til https://127.0.0.1:5000/
 
