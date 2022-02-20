@@ -29,7 +29,7 @@ Du får da opp en link som peker til https://127.0.0.1:5000/
 
 Klikk på linken og verifiser at du får opp "Hello Munchies" i nettleseren din
 
-#### Opprett database fra terminalen i pycharm:
+#### Oppdater database med kolonen "Users" fra terminalen i pycharm:
 
 ```flask create_db```
 
