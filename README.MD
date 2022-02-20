@@ -1,4 +1,4 @@
-## Fremgangsmåte (foreløpig)
+## Fremgangsmåte for å kjøre prosjekt lokalt (foreløpig)
 
 #### Last ned og installer pycharm
 
@@ -20,6 +20,10 @@ Behold alt som default her
 
 Installer requirements med pip ved hjelp av requirements.txt
 
+#### Oppdater database med kolonen "Users" fra terminalen i pycharm:
+
+```flask create_db```
+
 #### Kjør sysut_template
 
 Kjør sysut_template ved å klikke på den grønne pilen oppe til høyre i Pycharm.
@@ -27,7 +31,3 @@ Kjør sysut_template ved å klikke på den grønne pilen oppe til høyre i Pycha
 Du får da opp en link som peker til 127.0.0.1:5000/
 
 Klikk på linken og verifiser at du får opp "Hello Munchies" i nettleseren din
-
-#### Oppdater database med kolonen "Users" fra terminalen i pycharm:
-
-```flask create_db```

@@ -7,20 +7,16 @@ from db_user_info import username, password
 
 DB_NAME = "sysut_test_db"
 
+# Standard Flask configuration
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql+pymysql://{username}:{password}@localhost/{DB_NAME}"
 db = SQLAlchemy(app)
+
+# Create database
 create_db(username, password, DB_NAME)
+
+# create all tables, columns and rows in database
 db.create_all()
-
-
-@click.command(name='update_local_db')
-@with_appcontext
-def update_local_db():
-    db.create_all()
-
-
-app.cli.add_command(update_local_db)
 
 
 class User(db.Model):
