@@ -12,13 +12,10 @@ https://mariadb.org/download/?t=mariadb&p=mariadb&r=10.7.3&os=windows&cpu=x86_64
 
 #### Endre til ditt brukernavn og passord i mariaDB
 
-I app.py, skriv om linje 7 fra
+I personal_db_user.py endre username og password til det du valgte under installasjon av mariaDB.  
+Username er root om du ikke har endret dette.
 
-```app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:tresko@localhost/kongle_db'```
-
-Skriv om til ditt oppsett
-
-```mysql+pymysql://username:password@localhost/db_name```
+NB: Når du commiter filer til prosjektet: Ikke legg ved din personal_db_user.py 
 
 #### Installer requirements 
 

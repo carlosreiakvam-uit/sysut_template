@@ -2,9 +2,11 @@ from flask import Flask
 import click
 from flask.cli import with_appcontext
 from flask_sqlalchemy import SQLAlchemy
+from personal_db_user import username, password, db_name
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:tresko@localhost/kongle_db'
+app.config['SQLALCHEMY_DATABASE_URI'] = f'mysql+pymysql://{username}:{password}@localhost/{db_name}' \
+    .format(username=username, password=password, db_name = db_name)
 db = SQLAlchemy(app)
 
 
