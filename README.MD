@@ -1,5 +1,11 @@
 ### Fremgangsmåte (foreløpig)
 
+### Last ned og installer pycharm
+
+https://www.jetbrains.com/pycharm/download/#section=windows
+
+Registrer deg med uit-epost og be til gudene om at du har fått gratis tilgang
+
 #### Last ned og installer mariadb
 
 https://mariadb.org/download/?t=mariadb&p=mariadb&r=10.7.3&os=windows&cpu=x86_64&pkg=msi&m=dotsrc
