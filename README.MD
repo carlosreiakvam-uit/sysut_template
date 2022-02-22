@@ -4,7 +4,7 @@
 
 https://www.jetbrains.com/pycharm/download/#section=windows
 
-Registrer deg med uit-epost og be til gudene om at du har fått gratis tilgang
+Registrer deg med uit-epost
 
 #### Last ned og installer mariadb
 
