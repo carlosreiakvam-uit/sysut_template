@@ -1,5 +1,9 @@
 ## Fremgangsmåte for å kjøre prosjekt lokalt (foreløpig)
 
+#### Fremgangsmåte hentet fra disse kildene
+https://flask.palletsprojects.com/en/2.0.x/tutorial/
+https://www.mariadbtutorial.com/
+
 #### Last ned og installer pycharm
 
 https://www.jetbrains.com/pycharm/download/#section=windows
