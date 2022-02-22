@@ -36,5 +36,5 @@ Klikk på linken og verifiser at du får opp "Hello Munchies" i nettleseren din
 
 
 #### Kilder
-https://flask.palletsprojects.com/en/2.0.x/tutorial/  
+https://flask-sqlalchemy.palletsprojects.com/en/2.x/ 
 https://www.mariadbtutorial.com/
