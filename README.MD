@@ -37,6 +37,9 @@ Klikk på linken og verifiser at du får opp "Hello Munchies" i nettleseren din
 
 #### Kilder
 https://flask-sqlalchemy.palletsprojects.com/en/2.x/ 
+
 https://www.mariadbtutorial.com/
+
 https://stackoverflow.com/questions/33738467/how-do-i-know-if-i-can-disable-sqlalchemy-track-modifications
+
 https://docs.sqlalchemy.org/en/14/dialects/mysql.html
