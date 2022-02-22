@@ -1,9 +1,6 @@
 ## Fremgangsmåte for å kjøre prosjekt lokalt (foreløpig)
 
-#### Kilder brukt for å lage fremgangsmåte
-https://flask.palletsprojects.com/en/2.0.x/tutorial/
 
-https://www.mariadbtutorial.com/
 
 #### Last ned og installer pycharm
 
@@ -36,3 +33,8 @@ Kjør sysut_template ved å klikke på den grønne pilen oppe til høyre i Pycha
 Du får da opp en link som peker til 127.0.0.1:5000/
 
 Klikk på linken og verifiser at du får opp "Hello Munchies" i nettleseren din
+
+
+#### Kilder
+https://flask.palletsprojects.com/en/2.0.x/tutorial/  
+https://www.mariadbtutorial.com/
