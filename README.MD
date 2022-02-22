@@ -22,11 +22,32 @@ Behold alt som default her
 
 Installer requirements med pip ved hjelp av requirements.txt
 
-#### Opprett og oppdater database med verdier
+#### Opprett database
 
 Opprett databasen ved å kjøre local_db_create.py
 
+
+
+#### Koble til database i pycharm
+I Database helt til høyre i pycharm, trykk på plusstegnet og velg Data Source -> MariaDB
+
+![image](https://user-images.githubusercontent.com/98937880/155078882-e6703b48-cc59-4e17-9a93-0ed4974cf2a3.png)
+
+Brukernavn: Root
+Passord: Munchies
+Database: Se etter DB_NAME i local_db_create.py
+
+![image](https://user-images.githubusercontent.com/98937880/155079370-15fb5189-1e55-45c5-8c3e-b7b6c31de745.png)
+
+
+#### Oppdater database med verdier
+
 Oppdater databasen med siste verdier ved å kjøre local_db_update.py
+
+Trykk på refresh tegnet for få inn de siste endringene i pycharm
+![image](https://user-images.githubusercontent.com/98937880/155079077-c04face6-e9b9-4d25-bfec-95b26865c1af.png)
+
+
 
 #### Kjør sysut_template
 
