@@ -43,3 +43,5 @@ https://www.mariadbtutorial.com/
 https://stackoverflow.com/questions/33738467/how-do-i-know-if-i-can-disable-sqlalchemy-track-modifications
 
 https://docs.sqlalchemy.org/en/14/dialects/mysql.html
+
+https://stackoverflow.com/questions/43713124/creating-a-database-in-flask-sqlalchemy
