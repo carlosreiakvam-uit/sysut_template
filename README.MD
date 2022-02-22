@@ -22,9 +22,11 @@ Behold alt som default her
 
 Installer requirements med pip ved hjelp av requirements.txt
 
-#### Oppdater database med kolonen "Users" fra terminalen i pycharm:
+#### Opprett og oppdater database med verdier
 
-```flask create_db```
+Opprett databasen ved å kjøre local_db_create.py
+
+Oppdater databasen med siste verdier ved å kjøre local_db_update.py
 
 #### Kjør sysut_template
 
